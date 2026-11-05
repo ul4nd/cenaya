@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cenaya</title>
+  <meta name="description"
+    content="Koleksi hijab modern, ceria, dan penuh warna dari CENAYA. Dengan bahan Viscose & Ceruty premium yang nyaman digunakan.">
+  <meta name="keywords"
+    content="Cenaya, hijab modern, ceria, pastel, fashion hijab, hijab kekinian, ceruty baby doll, viscose premium">
+
+  <!-- Favicon Icon -->
+  <link rel="icon" href="assets/images/Logo putih.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Top Announcement Promo Bar -->
+  <aside class="announcement-bar" role="region" aria-label="Pengumuman Promosi">
+    <span><strong>Koleksi Rilisan Perdana Cenaya 2026:</strong> Dapatkan diskon promo peluncuran - eksplorasi koleksi
+      warna-warni eksklusif kami sekarang!</span>
+    <a href="#collection" class="announcement-link">Lihat Katalog →</a>
+  </aside>
+
+  <!-- 1. NAVIGATION BAR -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <!-- Logo CENAYA -->
+      <a href="#home" class="brand-logo" aria-label="Beranda CENAYA">
+        <img src="assets/images/Logo putih.png" alt="Logo CENAYA" class="brand-logo-img">
+        <span>Cenaya</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav aria-label="Navigasi Utama">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Beranda</a></li>
+          <li><a href="#collection" class="nav-link">Koleksi</a></li>
+          <li><a href="#about" class="nav-link">Tentang Cenaya</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <div class="nav-shop-wrapper" id="nav-shop-wrapper">
+          <button type="button" class="btn btn-primary" id="nav-cta-btn" aria-expanded="false" aria-haspopup="true">
+            <span>Belanja Sekarang</span>
+            <svg class="nav-shop-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+
+          <!-- Dropdown Opsi Belanja (Shopee & TikTok Shop) -->
+          <div class="nav-shop-dropdown" id="nav-shop-dropdown" role="menu">
+            <a href="https://shopee.co.id/cenaya_id" target="_blank" rel="noopener noreferrer" class="shop-dropdown-item shop-item-shopee" role="menuitem">
+              <div class="shop-item-icon-box shopee-bg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+              </div>
+              <div class="shop-item-content">
+                <span class="shop-item-name">Shopee</span>
+                <span class="shop-item-desc">Official Store</span>
+              </div>
+              <svg class="shop-item-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+
+            <a href="https://www.tiktok.com/@cenaya_id" target="_blank" rel="noopener noreferrer" class="shop-dropdown-item shop-item-tiktok" role="menuitem">
+              <div class="shop-item-icon-box tiktok-bg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                </svg>
+              </div>
+              <div class="shop-item-content">
+                <span class="shop-item-name">TikTok Shop</span>
+                <span class="shop-item-desc">Official Store</span>
+              </div>
+              <svg class="shop-item-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <button type="button" class="hamburger-btn" aria-label="Buka menu navigasi" aria-expanded="false"
+          id="hamburger-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-nav-drawer" id="mobile-drawer">
+      <a href="#home" class="nav-link">Beranda</a>
+      <a href="#collection" class="nav-link">Koleksi</a>
+      <a href="#about" class="nav-link">Tentang CENAYA</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+
+      <div class="mobile-shop-wrapper" id="mobile-shop-wrapper">
+        <button type="button" class="btn btn-primary" id="mobile-drawer-cta" aria-expanded="false" style="width: 100%;">
+          <span>Belanja Sekarang</span>
+          <svg class="nav-shop-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+
+        <div class="mobile-shop-dropdown" id="mobile-shop-dropdown">
+          <a href="https://shopee.co.id/cenaya_id" target="_blank" rel="noopener noreferrer" class="shop-dropdown-item shop-item-shopee">
+            <div class="shop-item-icon-box shopee-bg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+            </div>
+            <div class="shop-item-content">
+              <span class="shop-item-name">Shopee</span>
+              <span class="shop-item-desc">Beli di Shopee Official</span>
+            </div>
+            <svg class="shop-item-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+
+          <a href="https://www.tiktok.com/@cenaya_id" target="_blank" rel="noopener noreferrer" class="shop-dropdown-item shop-item-tiktok">
+            <div class="shop-item-icon-box tiktok-bg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+              </svg>
+            </div>
+            <div class="shop-item-content">
+              <span class="shop-item-name">TikTok Shop</span>
+              <span class="shop-item-desc">Beli di TikTok Shop</span>
+            </div>
+            <svg class="shop-item-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="hero-blob blob-1" aria-hidden="true"></div>
+      <div class="hero-blob blob-2" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content fade-up in-view">
+          <div class="hero-badge">
+            <span>Brand Hijab & Fashion 2026</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Warnai Gayamu bersama <span class="highlight">Cenaya</span>
+          </h1>
+
+          <p class="hero-subtext">
+            Hijab ceria & trendy yang dirancang untuk perempuan muda yang ingin mengekspresikan gayanya dengan penuh
+            percaya diri setiap hari.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#collection" class="btn btn-primary" id="hero-primary-cta">
+              <span>Lihat Koleksi</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Brand Baru Highlights (Tanpa data penjualan palsu) -->
+          <div class="hero-stats">
+            <div class="brand-feature-item">
+              <div class="brand-feature-icon"></div>
+              <div class="brand-feature-text">
+                <strong>Desain Orisinal</strong>
+                <span>Motif unik & eksklusif</span>
+              </div>
+            </div>
+            <div class="brand-feature-item">
+              <div class="brand-feature-icon"></div>
+              <div class="brand-feature-text">
+                <strong>Bahan Pilihan</strong>
+                <span>Berbahan Viscose & Ceruty</span>
+              </div>
+            </div>
+            <div class="brand-feature-item">
+              <div class="brand-feature-icon"></div>
+              <div class="brand-feature-text">
+                <strong>Mudah Dibentuk</strong>
+                <span>Menyesuaikan bentuk wajah</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Composition -->
+        <div class="hero-visual-wrapper fade-up in-view">
+          <div class="hero-card-main">
+            <img src="assets/images/20260917_131938.jpg"
+              alt="Model fashion mengenakan hijab ceria CENAYA berlatar pastel" id="hero-model-img">
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="floating-badge badge-top-left" aria-hidden="true">
+            <div class="floating-icon-dot"></div>
+            <div class="floating-text">
+              <strong>Motif Orisinal</strong>
+              <span>Desain Unik Cenaya</span>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-bottom-right" aria-hidden="true">
+            <div class="floating-icon-dot"></div>
+            <div class="floating-text">
+              <strong>Nyaman Digunakan</strong>
+              <span>Dengan Bahan Viscose & Ceruty Pilihan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. FEATURED COLLECTION -->
+    <section class="section collection-section" id="collection">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Koleksi Pilihan</span>
+          <h2 class="section-title">Temukan Hijab Favorit Barumu</h2>
+          <p class="section-subtitle">
+            Penuh warna, nyaman, dan siap melengkapi gaya sehari-harimu saat kuliah maupun hangout bersama teman.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="filter-tabs fade-up" role="tablist" aria-label="Filter Kategori Koleksi">
+          <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Semua
+            Koleksi</button>
+          <button type="button" class="filter-btn" data-filter="summer" role="tab" aria-selected="false">Summer</button>
+          <button type="button" class="filter-btn" data-filter="colorful" role="tab"
+            aria-selected="false">Colorful</button>
+          <button type="button" class="filter-btn" data-filter="pastel" role="tab" aria-selected="false">Pastel</button>
+          <button type="button" class="filter-btn" data-filter="everyday" role="tab"
+            aria-selected="false">Everyday</button>
+        </div>
+
+        <!-- Product Grid (Rendered dynamically via js/main.js) -->
+        <div class="product-grid" id="product-grid">
+          <!-- Populated by JavaScript from CENAYA_CONFIG.products -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PRODUCT CATEGORY / COLLECTION EXPLORER -->
+    <section class="section category-section" id="category-explorer">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Jelajahi Nuansa</span>
+          <h2 class="section-title">Cari Gaya CENAYA-mu</h2>
+          <p class="section-subtitle">
+            Pilih tema motif yang paling mencerminkan mood dan kepribadian ceriamu hari ini.
+          </p>
+        </div>
+
+        <!-- 4 Visual Categories Grid -->
+        <div class="category-grid" id="category-grid">
+          <!-- Populated by JavaScript from CENAYA_CONFIG.categories -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. INTERACTIVE PRODUCT SHOWCASE -->
+    <section class="section showcase-section" id="showcase">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Kualitas Terjangkau</span>
+          <h2 class="section-title">Didesain Pas untuk Keseharianmu</h2>
+          <p class="section-subtitle">
+            Dari bahan bertekstur lembut hingga motif eksklusif, yang dirancang khusus untuk kenyamanan perempuan di
+            Indonesia.
+          </p>
+        </div>
+
+        <div class="showcase-wrapper">
+          <!-- Left Feature Cards -->
+          <div class="showcase-cards-col">
+            <div class="feature-box active" data-point="comfortable" tabindex="0">
+              <div class="feature-icon-badge"></div>
+              <h3 class="feature-title">Nyaman Dipakai</h3>
+              <p class="feature-desc">Material lembut, halus, flowy, dan adem untuk aktivitas seharian.</p>
+            </div>
+
+            <div class="feature-box" data-point="patterns" tabindex="0">
+              <div class="feature-icon-badge"></div>
+              <h3 class="feature-title">Motif Ceria</h3>
+              <p class="feature-desc">Pilihan corak warna-warni yang cerah dan ceria, dirancang khusus untuk membuat
+                harimu lebih bersemangat.</p>
+            </div>
+          </div>
+
+          <!-- Central Image with Hotspots -->
+          <div class="showcase-center-media">
+            <img src="assets/images/printed orange.jpeg" alt="Detail kelembutan dan pola hijab CENAYA"
+              id="showcase-main-image">
+
+            <!-- Interactive Hotspot Pins -->
+            <button type="button" class="hotspot-node active" style="top: 25%; left: 30%;" data-point="comfortable"
+              data-tooltip="Bahan lembut & adem" aria-label="Detail kenyamanan bahan">1</button>
+            <button type="button" class="hotspot-node" style="top: 35%; right: 28%;" data-point="patterns"
+              data-tooltip="Motif yang beragam" aria-label="Detail motif ceria">2</button>
+            <button type="button" class="hotspot-node" style="bottom: 35%; left: 32%;" data-point="styling"
+              data-tooltip="Flowy & mudah dibentuk" aria-label="Detail kemudahan styling">3</button>
+            <button type="button" class="hotspot-node" style="bottom: 24%; right: 26%;" data-point="affordable"
+              data-tooltip="Kualitas premium harga terjangkau" aria-label="Detail harga terjangkau">4</button>
+
+            <!-- Dynamic Tooltip -->
+            <div class="hotspot-tooltip" id="hotspot-tooltip">Kain lembut & adem di kulit</div>
+          </div>
+
+          <!-- Right Feature Cards -->
+          <div class="showcase-cards-col">
+            <div class="feature-box" data-point="styling" tabindex="0">
+              <div class="feature-icon-badge"></div>
+              <h3 class="feature-title">Mudah Dibentuk</h3>
+              <p class="feature-desc">Tidak mudah bergeser, sangat fleksibel dipadukan dengan
+                berbagai outfit kuliah/kerja maupun hangout.</p>
+            </div>
+
+            <div class="feature-box" data-point="affordable" tabindex="0">
+              <div class="feature-icon-badge"></div>
+              <h3 class="feature-title">Harga Terjangkau</h3>
+              <p class="feature-desc">Kualitas jahitan rapi dan bahan premium, tetap dengan harga yang
+                bersahabat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. WHY CENAYA -->
+    <section class="section why-section" id="about">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Produk Kami</span>
+          <h2 class="section-title">Kenapa Harus Cenaya?</h2>
+          <p class="section-subtitle">
+            Cenaya hadir karena kami ingin membawa sesuatu yang berbeda dalam dunia fashion hijab.
+            Kami melihat bahwa hijab bukan hanya kebutuhan untuk menutup aurat, tetapi juga bagian dari cara perempuan
+            mengekspresikan karakter dan gaya mereka.
+          </p>
+        </div>
+
+        <!-- 4 Visual Benefit Cards -->
+        <div class="why-grid" id="why-grid">
+          <!-- Populated by JavaScript from CENAYA_CONFIG.whyCenaya -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. PRODUCT CTA SECTION -->
+    <section class="section cta-section" id="cta-banner">
+      <div class="cta-orb cta-orb-1" aria-hidden="true"></div>
+      <div class="cta-orb cta-orb-2" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="cta-content-box fade-up">
+          <span class="cta-badge">Waktunya Tampil Percaya Diri</span>
+          <h2 class="cta-headline">Siap Mewarnai Gayamu Hari Ini?</h2>
+          <p class="cta-subtext">
+            Temukan koleksi hijab Cenaya dan pilih motif yang paling pas mewakili pesona unikmu. Tersedia di platform
+            belanja resmi kami.
+          </p>
+
+          <div class="cta-actions">
+            <a href="#collection" class="btn btn-white" id="cta-bottom-btn">
+              <span>Lihat Koleksi</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <div class="cta-platforms-note">
+            <span>Tersedia resmi di:</span>
+            <span class="platform-pill">Shopee</span>
+            <span class="platform-pill">TikTok Shop</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. FAQ ACCORDION -->
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Informasi Penting</span>
+          <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+          <p class="section-subtitle">
+            Ketahui lebih banyak mengenai material, ciri khas, dan cara mudah memesan hijab CENAYA.
+          </p>
+        </div>
+
+        <div class="faq-accordion" id="faq-accordion">
+          <!-- Populated by JavaScript from CENAYA_CONFIG.faqs -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 10. FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand-col">
+          <a href="#home" class="brand-logo">
+            <img src="assets/images/Logo putih.png" alt="Logo CENAYA" class="brand-logo-img">
+            <span>Cenaya</span>
+          </a>
+          <p class="footer-brand-tagline">Penuh Warna. Ceria. Dirimu.</p>
+          <p class="footer-brand-desc">
+            Brand fashion hijab modern Indonesia untuk perempuan muda yang ceria.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com/cenaya_id" target="_blank" rel="noopener noreferrer"
+              class="social-circle-btn" aria-label="Instagram CENAYA">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://tiktok.com/@cenaya_id" target="_blank" rel="noopener noreferrer" class="social-circle-btn"
+              aria-label="TikTok CENAYA">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+              </svg>
+            </a>
+            <a href="https://shopee.co.id/cenaya_id" target="_blank" rel="noopener noreferrer" class="social-circle-btn"
+              aria-label="Shopee CENAYA">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+            </a>
+            <a href="https://wa.me/6289664779300" target="_blank" rel="noopener noreferrer"
+              class="social-circle-btn wa-social" aria-label="WhatsApp CS CENAYA">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824z" />
+              </svg>
+            </a>
+            <a href="https://linktr.ee/cenaya" target="_blank" rel="noopener noreferrer"
+              class="social-circle-btn" aria-label="Linktree Cenaya">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7.953 15.066l-.038-2.888 4.064-3.691-4.064.001-.038-2.507h3.975L7.953 2.432l2.31-1.639L12 3.639l1.737-2.846 2.31 1.639-3.899 3.549h3.975l-.038 2.507-4.064-.001 4.064 3.691-.038 2.888-4.064-3.691.002 6.682h-2.97l.002-6.682-4.064 3.691z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div>
+          <h4 class="footer-col-title">Navigasi</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home" class="footer-link">Beranda</a></li>
+            <li><a href="#collection" class="footer-link">Koleksi</a></li>
+            <li><a href="#about" class="footer-link">Tentang CENAYA</a></li>
+            <li><a href="#faq" class="footer-link">FAQ</a></li>
+          </ul>
+        </div>
+
+        <!-- Official Channels -->
+        <div>
+          <h4 class="footer-col-title">Untuk Pemesanan</h4>
+          <ul class="footer-links-list">
+
+            <li><a href="https://shopee.co.id/cenaya_id" target="_blank" rel="noopener noreferrer"
+                class="footer-link">Shopee Official</a></li>
+            <li><a href="https://tiktok.com/@cenaya_id" target="_blank" rel="noopener noreferrer"
+                class="footer-link">TikTok Shop</a></li>
+            <li><a href="https://instagram.com/cenaya_id" target="_blank" rel="noopener noreferrer"
+                class="footer-link">Instagram DM</a></li>
+          </ul>
+        </div>
+
+        <!-- Belanja Sekarang CTA -->
+        <div>
+          <h4 class="footer-col-title">Mulai Belanja</h4>
+          <p style="font-size: 0.875rem; color: #B5A4AE; margin-bottom: 14px;">
+            Lihat koleksi terbaru dan temukan hijab yang paling cocok dengan gaya dan kepribadianmu.
+          </p>
+          <a href="#collection" class="btn btn-primary" style="width: 100%; font-size: 0.875rem;">
+            Lihat Koleksi →
+          </a>
+        </div>
+      </div>
+
+      <!-- Copyright Bar -->
+      <div class="footer-bottom-bar">
+        <span>© 2026 Cenaya. All rights reserved.</span>
+        <span>Dibuat dengan cinta untuk perempuan Indonesia.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       PRODUCT DETAIL MODAL (Detail Lengkap + Variasi Warna + Checkout Opsi)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="product-detail-modal" role="dialog" aria-modal="true"
+    aria-labelledby="modal-detail-title">
+    <div class="modal-product-detail">
+      <!-- Close Button -->
+      <button type="button" class="modal-close-icon" id="modal-detail-close" aria-label="Tutup jendela detail">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Left Media Col -->
+      <div class="modal-media-col">
+        <div class="modal-main-img-box">
+          <img src="" alt="Detail Hijab CENAYA" id="modal-detail-img" class="modal-main-img">
+        </div>
+        <span class="modal-media-badge" id="modal-detail-badge">Rilisan Perdana</span>
+
+        <div class="modal-assurance-pills">
+          <span class="assurance-tag">100% Orisinal</span>
+          <span class="assurance-tag">Jahit Tepi Rapi</span>
+          <span class="assurance-tag">Tidak Terawang</span>
+        </div>
+      </div>
+
+      <!-- Right Information & Color Swatches Col -->
+      <div class="modal-info-col">
+        <span class="modal-cat-tag" id="modal-detail-category">Koleksi Summer</span>
+        <h2 class="modal-product-title" id="modal-detail-title">Cenaya - Summer</h2>
+
+        <div class="modal-price-row">
+          <span class="modal-product-price" id="modal-detail-price">Rp0</span>
+          <span class="modal-material-badge" id="modal-detail-material">Viscose Premium (115 x 115 cm)</span>
+        </div>
+
+        <p class="modal-desc-text" id="modal-detail-desc">
+          CENAYA Summer hadir dengan kombinasi motif khas musim panas dan sentuhan warna cerah yang memberikan kesan
+          fresh, playful, dan cheerful.
+          Terinspirasi dari suasana musim panas yang penuh warna.
+        </p>
+
+        <!-- Pilihan Variasi Warna Interaktif -->
+        <div class="modal-variant-section">
+          <div class="variant-label-row">
+            <strong>Pilihan Variasi Warna:</strong>
+            <span class="active-variant-name" id="modal-active-variant-name">Soft Blossom</span>
+          </div>
+          <!-- Dynamic Color Chips List -->
+          <div class="color-swatch-list" id="modal-swatch-list">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+
+        <!-- Action Order Box -->
+        <div class="modal-action-box">
+          <div class="modal-checkout-buttons">
+            <!-- Platform Options -->
+
+            <!-- Other Platforms -->
+            <div class="modal-platform-dual">
+              <a href="https://shopee.co.id/cenaya_id" target="_blank" rel="noopener noreferrer"
+                class="platform-btn-small platform-btn-shopee" id="modal-btn-shopee">
+                <span>Beli di Shopee</span>
+              </a>
+              <a href="https://tiktok.com/@cenaya_id" target="_blank" rel="noopener noreferrer"
+                class="platform-btn-small platform-btn-tiktok" id="modal-btn-tiktok">
+                <span>TikTok Shop</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- FLOATING BACK TO TOP BUTTON (Bottom Right) -->
+  <button type="button" class="back-to-top" id="back-to-top-btn" aria-label="Kembali ke atas">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- JavaScript Modules -->
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
