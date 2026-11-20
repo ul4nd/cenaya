@@ -2131,6 +2131,7 @@ button {
   .section-title { font-size: 1.85rem; }
   .nav-menu { display: none; }
   .hamburger-btn { display: flex; }
+  .nav-shop-wrapper { display: none; }
   .hero-grid { grid-template-columns: 1fr; gap: 36px; text-align: center; }
   .hero-content { margin: 0 auto; }
   .hero-cta-group { justify-content: center; }
