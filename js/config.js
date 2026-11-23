@@ -129,8 +129,8 @@ const CENAYA_CONFIG = {
       fullDesc: "CENAYA Renda Pastel membawa atmosfer ceria dengan aksen renda manis dan gradasi warna pastel modern. Menggunakan bahan Viscose lembut yang adem dan membuatmu tetap nyaman percaya diri sepanjang hari (Butter, Meringue, Chiffon, Alabaster, Creamy).",
       material: "Viscose (180 x 75 cm)",
       features: ["Aksen renda manis menawan", "Gradasi warna lembut estetik", "Breathable & sejuk", "Kain lemas mudah distyle"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Series 03",
       image: "assets/images/Koleksi Renda Pastel.png",
       variants: [
@@ -150,8 +150,8 @@ const CENAYA_CONFIG = {
       fullDesc: "Koleksi simpel yang siap menemanimu dari aktivitas pagi hingga malam. Berbahan Viscose premium dengan motif lace anggun yang lembut, rapi seketika, dan tidak perlu sering diperbaiki seharian (Obsidian, Eclipse, Slate, Ashsoot, Navyer).",
       material: "Viscose (180 x 75 cm)",
       features: ["Anti letoy & tegak paripurna", "Serat rapat tidak terawang", "Bahan ringan tidak gerah", "Finishing jahit tepi super rapi"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Series 04",
       image: "assets/images/Koleksi Renda Moody.png",
       variants: [
@@ -336,8 +336,8 @@ const CENAYA_CONFIG = {
       fullDesc: "CENAYA Renda Pastel varian Butter membawa atmosfer ceria dengan gradasi warna broken white krem lembut modern yang manis dan aesthetic.",
       material: "Viscose (180 x 75 cm)",
       features: ["Aksen motif renda manis", "Breathable & sejuk", "Kain lemas mudah distyle", "Cocok dipadukan dengan baju polos"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Pastel 01",
       image: "assets/images/katalog/pastel_Butter.png",
       variants: [
@@ -352,8 +352,8 @@ const CENAYA_CONFIG = {
       fullDesc: "CENAYA Renda Pastel varian Meringue memancarkan kelembutan warna baby pink yang manis dan imut, mempercantik penampilan femininmu.",
       material: "Viscose (180 x 75 cm)",
       features: ["Sentuhan baby pink lembut", "Serat kain halus sejuk", "Mudah distyling", "Jahitan rapi"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Pastel 02",
       image: "assets/images/katalog/pastel_Meringue.png",
       variants: [
@@ -368,8 +368,8 @@ const CENAYA_CONFIG = {
       fullDesc: "CENAYA Renda Pastel varian Chiffon menghadirkan kehangatan warna peach blush yang lembut dan mempesona untuk pemakaian sehari-hari.",
       material: "Viscose (180 x 75 cm)",
       features: ["Warna peach blush manis", "Bahan adem tidak gerah", "Finishing tepi jahit rapi", "Tegak alami di dahi"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Pastel 03",
       image: "assets/images/katalog/pastel_Chiffon.png",
       variants: [
@@ -384,10 +384,10 @@ const CENAYA_CONFIG = {
       fullDesc: "CENAYA Renda Pastel varian Alabaster memberikan kesan bersih, anggun, dan netral yang sangat cocok dipadukan dengan berbagai outfit kuliah maupun hangout.",
       material: "Viscose (180 x 75 cm)",
       features: ["Warna nude ivory netral", "Bahan lembut & ringan", "Mudah dirapikan", "Motif renda estetik"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Pastel 04",
-      image: "assets/images/katalog/pastel_Alabaster.png",
+      image: "assets/images/Koleksi Renda Pastel.png",
       variants: [
         { name: "Alabaster", hex: "#FAEBDA", image: "assets/images/katalog/pastel_Alabaster.png" }
       ]
@@ -400,8 +400,8 @@ const CENAYA_CONFIG = {
       fullDesc: "CENAYA Renda Pastel varian Creamy melengkapi koleksimu dengan gradasi rose-beige hangat yang unik, lembut, dan elegan.",
       material: "Viscose (180 x 75 cm)",
       features: ["Warna rose-beige anggun", "Sangat adem dipakai", "Jatuh kain flowy", "Kualitas terjamin"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Pastel 05",
       image: "assets/images/katalog/pastel_Creamy.png",
       variants: [
@@ -418,12 +418,12 @@ const CENAYA_CONFIG = {
       fullDesc: "Koleksi simpel dan elegan bernuansa hitam obsidian dengan motif lace yang anggun. Berbahan Viscose berkualitas yang lembut, rapi seketika, dan tidak perlu sering diperbaiki seharian.",
       material: "Viscose (180 x 75 cm)",
       features: ["Warna hitam obsidian pekat", "Serat rapat tidak terawang", "Bahan ringan tidak gerah", "Finishing jahit tepi super rapi"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Moody 01",
-      image: "assets/images/katalog/moody_Obsidian.png",
+      image: "assets/images/Koleksi Renda Moody.png",
       variants: [
-        { name: "Obsidian", hex: "#000000", image: "assets/images/katalog/moody_Obsidian.png" }
+        { name: "Obsidian", hex: "#000000", image: "assets/images/Koleksi Renda Moody.png" }
       ]
     },
     {
@@ -434,12 +434,12 @@ const CENAYA_CONFIG = {
       fullDesc: "CENAYA Renda Moody varian Eclipse memberikan sentuhan warna dark coffee cokelat pekat yang memberikan kesan tegas, dewasa, dan modis.",
       material: "Viscose (180 x 75 cm)",
       features: ["Warna dark coffee eksklusif", "Bahan adem dan jatuh", "Mudah dibentuk", "Anti letoy di dahi"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Moody 02",
-      image: "assets/images/katalog/moody_Eclipse.png",
+      image: "assets/images/Koleksi Renda Moody.png",
       variants: [
-        { name: "Eclipse", hex: "#331403", image: "assets/images/katalog/moody_Eclipse.png" }
+        { name: "Eclipse", hex: "#331403", image: "assets/images/Koleksi Renda Moody.png" }
       ]
     },
     {
@@ -450,12 +450,12 @@ const CENAYA_CONFIG = {
       fullDesc: "CENAYA Renda Moody varian Slate memadukan warna abu-abu slate lembut dengan motif lace yang manis, cocok untuk gaya kasual modern sehari-hari.",
       material: "Viscose (180 x 75 cm)",
       features: ["Warna abu-abu slate sejuk", "Ringan & sejuk", "Jahitan tepi berkualitas", "Serat rapat halus"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Moody 03",
-      image: "assets/images/katalog/moody_slate.png",
+      image: "assets/images/Koleksi Renda Moody.png",
       variants: [
-        { name: "Slate", hex: "#D8C5C8", image: "assets/images/katalog/moody_slate.png" }
+        { name: "Slate", hex: "#D8C5C8", image: "assets/images/Koleksi Renda Moody.png" }
       ]
     },
     {
@@ -466,12 +466,12 @@ const CENAYA_CONFIG = {
       fullDesc: "CENAYA Renda Moody varian Ashsoot bernuansa abu-abu gelap charcoal yang memberikan kesan minimalis dan aesthetic untuk berbagai paduan outfit.",
       material: "Viscose (180 x 75 cm)",
       features: ["Warna charcoal ash minimalis", "Bahan lemas & flowy", "Tidak licin saat dipakai", "Tegak rapi"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Moody 04",
-      image: "assets/images/katalog/moody_ashsoot.png",
+      image: "assets/images/Koleksi Renda Moody.png",
       variants: [
-        { name: "Ashsoot", hex: "#837C86", image: "assets/images/katalog/moody_ashsoot.png" }
+        { name: "Ashsoot", hex: "#837C86", image: "assets/images/Koleksi Renda Moody.png" }
       ]
     },
     {
@@ -482,12 +482,12 @@ const CENAYA_CONFIG = {
       fullDesc: "CENAYA Renda Moody varian Navyer menghadirkan pesona warna navy dongker klasik yang abadi, memberikan kesan profesional, rapi, dan menawan.",
       material: "Viscose (180 x 75 cm)",
       features: ["Warna navy gelap klasik", "Mudah dibentuk berbagai gaya", "Adem untuk kegiatan padat", "Jahitan rapi"],
-      price: "Rp72.000",
-      priceNum: 72000,
+      price: "Rp70.000",
+      priceNum: 70000,
       badge: "Moody 05",
-      image: "assets/images/katalog/moody_navyer.png",
+      image: "assets/images/Koleksi Renda Moody.png",
       variants: [
-        { name: "Navyer", hex: "#1D2134", image: "assets/images/katalog/moody_navyer.png" }
+        { name: "Navyer", hex: "#1D2134", image: "assets/images/Koleksi Renda Moody.png" }
       ]
     }
   ],
