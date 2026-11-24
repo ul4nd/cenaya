@@ -57,22 +57,22 @@ const CENAYA_CONFIG = {
       image: "assets/images/Koleksi Autumn.png",
       badge: "Series 02"
     },
-    {
-      id: "renda-pastel",
-      name: "Renda Pastel",
-      title: "CENAYA Renda Pastel",
-      desc: "Pola renda pastel manis yang menawan, lembut, dan aesthetic.",
-      image: "assets/images/Koleksi Renda Pastel.png",
-      badge: "Series 03"
-    },
-    {
-      id: "renda-moody",
-      name: "Renda Moody",
-      title: "CENAYA Renda Moody",
-      desc: "Sentuhan motif lace elegan yang simpel dan nyaman untuk sehari-hari.",
-      image: "assets/images/Koleksi Renda Moody.png",
-      badge: "Series 04"
-    }
+    // {
+    //   id: "renda-pastel",
+    //   name: "Renda Pastel",
+    //   title: "CENAYA Renda Pastel",
+    //   desc: "Pola renda pastel manis yang menawan, lembut, dan aesthetic.",
+    //   image: "assets/images/Koleksi Renda Pastel.png",
+    //   badge: "Series 03"
+    // },
+    // {
+    //   id: "renda-moody",
+    //   name: "Renda Moody",
+    //   title: "CENAYA Renda Moody",
+    //   desc: "Sentuhan motif lace elegan yang simpel dan nyaman untuk sehari-hari.",
+    //   image: "assets/images/Koleksi Renda Moody.png",
+    //   badge: "Series 04"
+    // }
   ],
 
   // Data Produk Lengkap dengan Variasi Warna
@@ -120,48 +120,48 @@ const CENAYA_CONFIG = {
         { name: "Amber", hex: "#EAD5B3", image: "assets/images/katalog/autumn_Amber.png" }
       ]
     },
-    {
-      id: "cenaya-series-renda-pastel",
-      name: "CENAYA Renda Pastel Series",
-      category: "all",
-      isMainSeries: true,
-      shortDesc: "Pola renda pastel manis yang menawan, lembut, dan aesthetic di setiap momen.",
-      fullDesc: "CENAYA Renda Pastel membawa atmosfer ceria dengan aksen renda manis dan gradasi warna pastel modern. Menggunakan bahan Viscose lembut yang adem dan membuatmu tetap nyaman percaya diri sepanjang hari (Butter, Meringue, Chiffon, Alabaster, Creamy).",
-      material: "Viscose (180 x 75 cm)",
-      features: ["Aksen renda manis menawan", "Gradasi warna lembut estetik", "Breathable & sejuk", "Kain lemas mudah distyle"],
-      price: "Rp70.000",
-      priceNum: 70000,
-      badge: "Series 03",
-      image: "assets/images/Koleksi Renda Pastel.png",
-      variants: [
-        { name: "Butter", hex: "#FFFBEF", image: "assets/images/katalog/pastel_Butter.png" },
-        { name: "Meringue", hex: "#FFDDEB", image: "assets/images/katalog/pastel_Meringue.png" },
-        { name: "Chiffon", hex: "#FFEAEA", image: "assets/images/katalog/pastel_Chiffon.png" },
-        { name: "Alabaster", hex: "#FAEBDA", image: "assets/images/katalog/pastel_Alabaster.png" },
-        { name: "Creamy", hex: "#E6C9C1", image: "assets/images/katalog/pastel_Creamy.png" }
-      ]
-    },
-    {
-      id: "cenaya-series-renda-moody",
-      name: "CENAYA Renda Moody Series",
-      category: "all",
-      isMainSeries: true,
-      shortDesc: "Sentuhan motif lace moody elegan yang simpel dan versatile untuk harian.",
-      fullDesc: "Koleksi simpel yang siap menemanimu dari aktivitas pagi hingga malam. Berbahan Viscose premium dengan motif lace anggun yang lembut, rapi seketika, dan tidak perlu sering diperbaiki seharian (Obsidian, Eclipse, Slate, Ashsoot, Navyer).",
-      material: "Viscose (180 x 75 cm)",
-      features: ["Anti letoy & tegak paripurna", "Serat rapat tidak terawang", "Bahan ringan tidak gerah", "Finishing jahit tepi super rapi"],
-      price: "Rp70.000",
-      priceNum: 70000,
-      badge: "Series 04",
-      image: "assets/images/Koleksi Renda Moody.png",
-      variants: [
-        { name: "Obsidian", hex: "#000000", image: "assets/images/katalog/moody_Obsidian.png" },
-        { name: "Eclipse", hex: "#331403", image: "assets/images/katalog/moody_Eclipse.png" },
-        { name: "Slate", hex: "#D8C5C8", image: "assets/images/katalog/moody_Slate.png" },
-        { name: "Ashsoot", hex: "#837C86", image: "assets/images/katalog/moody_Ashsoot.png" },
-        { name: "Navyer", hex: "#1D2134", image: "assets/images/katalog/moody_Navyer.png" }
-      ]
-    },
+    // {
+    //   id: "cenaya-series-renda-pastel",
+    //   name: "CENAYA Renda Pastel Series",
+    //   category: "all",
+    //   isMainSeries: true,
+    //   shortDesc: "Pola renda pastel manis yang menawan, lembut, dan aesthetic di setiap momen.",
+    //   fullDesc: "CENAYA Renda Pastel membawa atmosfer ceria dengan aksen renda manis dan gradasi warna pastel modern. Menggunakan bahan Viscose lembut yang adem dan membuatmu tetap nyaman percaya diri sepanjang hari (Butter, Meringue, Chiffon, Alabaster, Creamy).",
+    //   material: "Viscose (180 x 75 cm)",
+    //   features: ["Aksen renda manis menawan", "Gradasi warna lembut estetik", "Breathable & sejuk", "Kain lemas mudah distyle"],
+    //   price: "Rp70.000",
+    //   priceNum: 70000,
+    //   badge: "Series 03",
+    //   image: "assets/images/Koleksi Renda Pastel.png",
+    //   variants: [
+    //     { name: "Butter", hex: "#FFFBEF", image: "assets/images/katalog/pastel_Butter.png" },
+    //     { name: "Meringue", hex: "#FFDDEB", image: "assets/images/katalog/pastel_Meringue.png" },
+    //     { name: "Chiffon", hex: "#FFEAEA", image: "assets/images/katalog/pastel_Chiffon.png" },
+    //     { name: "Alabaster", hex: "#FAEBDA", image: "assets/images/katalog/pastel_Alabaster.png" },
+    //     { name: "Creamy", hex: "#E6C9C1", image: "assets/images/katalog/pastel_Creamy.png" }
+    //   ]
+    // },
+    // {
+    //   id: "cenaya-series-renda-moody",
+    //   name: "CENAYA Renda Moody Series",
+    //   category: "all",
+    //   isMainSeries: true,
+    //   shortDesc: "Sentuhan motif lace moody elegan yang simpel dan versatile untuk harian.",
+    //   fullDesc: "Koleksi simpel yang siap menemanimu dari aktivitas pagi hingga malam. Berbahan Viscose premium dengan motif lace anggun yang lembut, rapi seketika, dan tidak perlu sering diperbaiki seharian (Obsidian, Eclipse, Slate, Ashsoot, Navyer).",
+    //   material: "Viscose (180 x 75 cm)",
+    //   features: ["Anti letoy & tegak paripurna", "Serat rapat tidak terawang", "Bahan ringan tidak gerah", "Finishing jahit tepi super rapi"],
+    //   price: "Rp70.000",
+    //   priceNum: 70000,
+    //   badge: "Series 04",
+    //   image: "assets/images/Koleksi Renda Moody.png",
+    //   variants: [
+    //     { name: "Obsidian", hex: "#000000", image: "assets/images/katalog/moody_Obsidian.png" },
+    //     { name: "Eclipse", hex: "#331403", image: "assets/images/katalog/moody_Eclipse.png" },
+    //     { name: "Slate", hex: "#D8C5C8", image: "assets/images/katalog/moody_Slate.png" },
+    //     { name: "Ashsoot", hex: "#837C86", image: "assets/images/katalog/moody_Ashsoot.png" },
+    //     { name: "Navyer", hex: "#1D2134", image: "assets/images/katalog/moody_Navyer.png" }
+    //   ]
+    // },
 
     // --- 2. SERIES SUMMER (5 Produk Detail Warna) ---
     {

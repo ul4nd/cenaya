@@ -912,15 +912,22 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 7px;
-  font-size: 0.8rem;
+  gap: 8px;
+  font-size: 0.825rem;
   font-weight: 600;
-  color: var(--color-muted);
-  margin-bottom: 12px;
+  color: var(--color-dark-soft);
+  margin-bottom: 14px;
+  text-align: center;
+  padding: 4px 14px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
 }
 
 .deck-hint svg {
   color: var(--color-accent-pink);
+  flex-shrink: 0;
 }
 
 /* ==========================================================================
@@ -1833,28 +1840,44 @@ button {
 
 .footer-social-links {
   display: flex;
-  gap: 10px;
-  margin-top: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+  position: relative;
+  z-index: 10;
 }
 
 .social-circle-btn {
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.08);
   color: var(--color-white);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   transition: all var(--transition-fast);
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.social-circle-btn:hover {
+.social-circle-btn svg {
+  pointer-events: none;
+}
+
+.social-circle-btn:hover,
+.social-circle-btn:active {
   background: var(--color-accent-pink);
   transform: translateY(-3px);
 }
 
-.social-circle-btn.wa-social:hover {
+.social-circle-btn.wa-social:hover,
+.social-circle-btn.wa-social:active {
   background: var(--color-wa-green);
 }
 
@@ -2275,10 +2298,12 @@ button {
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+  pointer-events: none;
 }
 
 /* Toggle Pill Button */
 .mince-toggle-btn {
+  pointer-events: auto;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -2338,6 +2363,9 @@ button {
 
 /* Pop-up Card */
 .mince-popup-card {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  left: 0;
   width: 320px;
   background: var(--color-white);
   border-radius: 20px;
@@ -2553,6 +2581,14 @@ button {
   .cta-headline { font-size: 2.1rem; }
   .lookbook-header-row { flex-direction: column; align-items: flex-start; gap: 14px; }
   .footer-top-grid { grid-template-columns: 1fr; gap: 28px; }
+  .site-footer { padding-bottom: 96px; }
+  .footer-social-links { gap: 14px; margin-top: 18px; }
+  .social-circle-btn {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+  }
   
   .modal-product-detail {
     grid-template-columns: 1fr;
